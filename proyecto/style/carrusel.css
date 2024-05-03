@@ -1,0 +1,86 @@
+/*CARRUSEL*/
+#conte-item-carrusel{
+    height: 550px;
+    overflow:hidden;
+}
+
+.item-carrusel{
+    height: 100%;
+    position: relative;
+}
+
+.tarjeta-carrusel{
+    height: 100%;
+}
+
+.flecha-carrusel{
+    background-color: rgb(196, 46, 46,);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;   
+}
+
+#conte-puntos{
+    background-color: rgb(90, 88, 88);
+    display: flex;
+    justify-content:space-around
+}
+
+#conte-puntos a{
+    font-size: 1.5rem;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+#tarjeta-carrusel1{
+    background-color: rgb(179, 161, 161);
+}
+
+#tarjeta-carrusel2{
+    background-color: rgb(110, 32, 32);
+}
+
+#tarjeta-carrusel3{
+    background-color: rgb(65, 1, 1);
+}
+
+#tarjeta-carrusel4{
+    background-color: rgb(60, 6, 255);
+}
+
+#tarjeta-carrusel5{
+    background-color: rgb(12, 11, 77);
+}
+
+#tarjeta-carrusel6{
+    background-color: rgb(98, 80, 204);
+}
+
+#tarjeta-carrusel7{
+    background-color: rgb(32, 218, 47);
+}
+
+#tarjeta-carrusel8{
+    background-color: rgb(116, 231, 135);
+}
+
+#tarjeta-carrusel9{
+    background-color: rgb(0, 241, 24);
+}
+
+#tarjeta-carrusel10{
+    background-color: rgb(216, 134, 27);
+}
