@@ -34,7 +34,7 @@ a, li{
 
 /*HEADER*/
 .logo-header img{
-    width: 55px;
+    width: 55px ;
     border-radius: 60px;
 }
 
@@ -135,28 +135,59 @@ header{
 
 
 /*HOTELERIA GRID*/
-.hotel-item-img{
-    width: 100%;
-    height: auto;
-    margin: 20px;
-    
-}
 
 .hotel-grid{
-    margin: 30px;
+    margin: 2%;
     background-color: #34495E;
-    height: 2000px;
+    height: auto;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(4,1fr);
-    column-gap: 20px;
-    row-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
     place-content: center;
     place-items: center;   
 }
 
+.hotel-item-img{
+    width: 40vw;
+    height: auto;
+    margin: 2px;
+}
+
 .hotel-item-detail{
-    margin: 10px;
+    margin: 2%;
+    background-color: #34495E;
+    height: auto;
+    display: grid;
+    place-content: center;
+    place-items: center; 
+}
+
+.hotel-item-detail h2{
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.hotel-item-detail h3{
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.hotel-item-detail p{
+    color: gray;
+    font-size: 1.25vw;
+    text-align: center;
+}
+
+.hotel-item-detail .estrella{
+    color: #FFD700;
+    font-size: 1.5vw;
+}
+
+.hotel-item-detail a{
+    color: whitesmoke;
+    font-size: 1.5vw;
 }
 
 .hotel-grid a:hover{
